@@ -7,9 +7,9 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src=""
+          src={logo}
           alt="Pesogate logo"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[150px] h-[200px] object-contain justify-content-left"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
           Navigating Forex with excellence, innovation, and client-centric strategies

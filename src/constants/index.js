@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, currency, market, risk, consult  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,7 +22,7 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: currency,
     title: "Currency Exchange",
     content:
       "Seamless and secure transactions with competitive rates for swift and accurate \
@@ -30,7 +30,7 @@ export const features = [
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: risk,
     title: "Risk Management",
     content:
       "Mitigate currency-related risks with tailored strategies crafted by our seasoned \
@@ -38,7 +38,7 @@ export const features = [
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: market,
     title: "Market Analysis",
     content:
       "In-depth insights into global economic trends, currency movements, and \
@@ -47,7 +47,7 @@ export const features = [
   },
   {
     id: "feature-4",
-    icon: send,
+    icon: consult,
     title: "Consultancy Services",
     content:
       "Collaborative consultation with our experienced team to optimize currency \

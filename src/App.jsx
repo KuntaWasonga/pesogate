@@ -14,7 +14,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         {/* <Stats /> */}
@@ -22,8 +22,8 @@ const App = () => (
         {/*<Billing />
         <CardDeal /> */}
         <Testimonials />
-        {/*<Clients /> */}
-         <CTA />
+        {/*<Clients /> 
+         <CTA /> */}
         <Footer />
       </div>
     </div>
