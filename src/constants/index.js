@@ -7,66 +7,88 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "About Us",
   },
   {
     id: "product",
     title: "Product",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "client",
+    title: "Industries",
   },
+  {
+    id: "contact",
+    title: "Contact Us",
+  }
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Currency Exchange",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Seamless and secure transactions with competitive rates for swift and accurate \
+      currency exchanges.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Risk Management",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Mitigate currency-related risks with tailored strategies crafted by our seasoned \
+      risk management specialists.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Market Analysis",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "In-depth insights into global economic trends, currency movements, and \
+      geopolitical factors, empowering clients to make informed decisions and \
+      capitalize on opportunities.",
+  },
+  {
+    id: "feature-4",
+    icon: send,
+    title: "Consultancy Services",
+    content:
+      "Collaborative consultation with our experienced team to optimize currency \
+      management based on unique financial objectives.",
   },
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    content: {
+      "1" : "High net worth individuals"
+    },
+    name: "Individual",
+    //title: "Founder & Leader",
+    //img: people01,
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    content: {
+      "1": "SMEs (Small and Medium-sized Enterprises",
+      "2": "Import-Export Businesses",
+      "3": "E-commerce Platforms"
+    },
+    name: "SMEs",
+    //title: "Founder & Leader",
+    //img: people02,
   },
   {
     id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    content: {
+      "1": "Corporate Enterprises",
+      "2": "Financial Institutions"
+    },
+    name: "Corporate Entities",
+    //title: "Founder & Leader",
+    //img: people03,
   },
 ];
 
@@ -88,71 +110,27 @@ export const stats = [
   },
 ];
 
+
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "CONTACT US",
     links: [
       {
-        name: "Content",
+        name: "+254 726 786 481",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "admin@pesogate.com",
+        link: "mailto:admin@pesogate.com",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Delta Corner, 6th Floor, Westlands, Nairobi",
+        link: "https://www.google.com/maps/search/?q=Delta+Corner,+6th+Floor,+Westlands,+Nairobi",
       },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+    ]
+  }
 ];
+
 
 export const socialMedia = [
   {
