@@ -6,7 +6,7 @@ const NavBar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-      <img src={logo} alt="Pesogate" className='w-[124px] h-[32px]' />
+      <img alt="Pesogate logo" className='w-[124px] h-[32px]' />
       <ul className='list-none sm:flex hidden justify-end items-center flxe-1'>
         {
           navLinks.map((el, index)=>{
