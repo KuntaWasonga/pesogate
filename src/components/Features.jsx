@@ -22,8 +22,8 @@ const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Pesogate FX Agency is a leading provider<br className="sm:block hidden" />  of advanced
-        foreign exchange solutions.
+      Pesogate FX Agency empowers clients <br className="sm:block hidden" /> 
+      through excellence, innovation, and commitment.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Committed to navigating the

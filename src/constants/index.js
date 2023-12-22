@@ -113,7 +113,7 @@ export const footerLinks = [
     links: [
       {
         name: "+254 726 786 481",
-        link: "https://www.hoobank.com/content/",
+        link: "tel: +254 726 786 481",
       },
       {
         name: "admin@pesogate.com",
@@ -122,6 +122,23 @@ export const footerLinks = [
       {
         name: "Delta Corner, 6th Floor, Westlands, Nairobi",
         link: "https://www.google.com/maps/search/?q=Delta+Corner,+6th+Floor,+Westlands,+Nairobi",
+      },
+    ]
+  },
+  {
+    title: "NAVIGATION",
+    links: [
+      {
+        name: "Home",
+        link: "#home",
+      },
+      {
+        name: "About us",
+        link: "#features",
+      },
+      {
+        name: "Industries",
+        link: "#industry",
       },
     ]
   }
